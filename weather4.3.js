@@ -18,7 +18,7 @@
      
      if (data.cod === "404") {
   document.getElementById("result").innerHTML = `
-    <p style="color:red;">sorry bhai nhi mili teri vali alag duniyaaaaaa//.</p>
+    <p style="color:red;">sorry bhai nhi mili teri vali alag duniyaaaaaa.</p>
   `;
   return;
 }
