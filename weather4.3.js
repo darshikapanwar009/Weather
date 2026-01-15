@@ -3,7 +3,7 @@
      const API_KEY="f5d9f9bd6596e4718945a0a3cacc30c8";
      btn.addEventListener("click",()=>{
      if(inpt.value==""){
-        alert("First enter the city name");
+        alert("pehla naam daal bhai");
      }
      else{
       getweatherData();
@@ -15,10 +15,10 @@
       `https://api.openweathermap.org/data/2.5/weather?q=${inpt.value}&appid=${API_KEY}&units=metric`
     );
      let data=await response.json();
-     /*error handling ffor wrong city name*/
+     
      if (data.cod === "404") {
   document.getElementById("result").innerHTML = `
-    <p style="color:red;">City not found. Please enter a valid city name.</p>
+    <p style="color:red;">sorry bhai nhi mili teri vali alag duniyaaaaaa//.</p>
   `;
   return;
 }
