@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(126, 157, 181);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+     }
+    .weather-cont{
+    padding: 20px;
+    margin-top:200px;
+    background-color: #dfd4e4;
+    width: 450px;
+    height:380px;
+    border-radius: 16px;
+    } 
+    .weather-cont h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+    }
+    input{
+    width:220px;
+    height:40px;        
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;       
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    }
+    button{
+     width:70px;
+    height:40px; 
+    background-color: rgb(119, 160, 205);
+    border-radius: 8px;
+    border: none;
+    margin-left:10px;
+    }
+    #result{
+        font-size: 22px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
